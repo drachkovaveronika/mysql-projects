@@ -1,4 +1,4 @@
-/*It’s my first project in MySQL. 
+/*Hi everyone! It’s my first project in MySQL. 
 A simple database for a library. Includes tables with information about readers, books and borrowings. 
 */
 create table reader ( 
@@ -8,7 +8,7 @@ first_name varchar(35) NOT NULL,
 telephone int(9), 
 email varchar(50) not null, 
 adress varchar(50), 
-Unique index(email),
+unique index(email),
 unique index(id_reader)
 ); 
 
